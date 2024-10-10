@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    top: 0;
+    left: 0;
+    color: white;
+    padding: 20px;
+    font-size: 24;
+    font-weight: bold;
+    position: sticky;
+}
+
+.rectangle2{
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    background-image: url(https://www.astronauts.id/blog/wp-content/uploads/2022/08/Makanan-Khas-Daerah-tiap-Provinsi-di-Indonesia-Serta-Daerah-Asalnya-1024x683.jpg);
+    font-size: 70px;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-weight: bold;
+    color: white;   
+}
+.kata1{
+    position: absolute;
+    margin-top: 80px;
+    font-size: 72px;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-weight: bold;
+    color: red;   
+}
+
+.gambar1{
+    float: left;
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 400px;
+    height: 400px;
+    background-image: url(https://ik.trn.asia/uploads/2022/10/1665275306623.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nama{
+    margin-top: 300px;
+    font-size: 48px;
+    padding-left: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.paragraf{
+    text-align: center;
+    width: 700px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 600px;
+    font-size: 40px;
+    font-weight: 500;
+    border: 1px;
+
+}
+
+footer{
+    position: absolute;
+    margin-top: 150px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 10px;
+    text-align: center;
+    color: white;
+}
