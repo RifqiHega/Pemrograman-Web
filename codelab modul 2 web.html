@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Codelab 2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function penjumlahan(){
+            var angka1 = parseFloat(document.getElementById("angka1").value);
+            var angka2 = parseFloat(document.getElementById("angka2").value);
+            var hasil = angka1+angka2;
+            document.getElementById("hasil").innerHTML = hasil;
+
+        }
+
+        function resetForm(){
+            document.getElementById("angka1").value ="";
+            document.getElementById("angka2").value ="";
+            document.getElementById("hasil").innerHTML ="";
+        }
+    </script>
+    <style>
+        body{
+            display: grid;
+            margin-top: 10px;
+            justify-content: center;
+            justify-items: center;
+        }
+        h1{
+            font-weight: bold;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        button{
+            background-color: rgb(6, 231, 6);
+            border-radius: 10px;
+            width: 100px;
+            height: 30px;
+            border: none;
+        }
+        input{
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Penjumlahan</h1>
+    <label for="angka1">Bilangan Pertama</label><br>
+    <input type="number" style="width: 300px;" id="angka1" placeholder="1"><br>
+
+    <label for="angka2">Bilangan Kedua</label><br>
+    <input type="number" style="width: 300px;" id="angka2" placeholder="2"><br>
+    
+    <div class="container">
+        <button  onclick="penjumlahan()">Hitung</button>
+        <button  onclick="resetForm()">Reset</button>
+    </div>
+    <div class="container">
+        <h1>Hasil : </h1>
+        <h1 id="hasil"></h1>
+    </div>
+    
+
+
+
+</body>
+</html>
+
