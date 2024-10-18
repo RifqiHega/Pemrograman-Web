@@ -1,0 +1,97 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.calculator{
+    width: 250px;
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
+
+.container{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    padding: 10px;
+    background: black;
+    align-items: center;
+    justify-content: center;
+}
+ 
+#display{
+    width: 226px;
+    height: 100px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: right;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+}
+
+.btn{
+    margin: 2px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: rgba(255, 255, 255, 0.555);
+}
+
+.opr{
+    color: #00a2ff;
+}
+
+.opr:active{
+    background-color: rgba(255, 255, 255, 0.555);
+}
+
+.zero{
+    grid-column: span 2;
+    width: 100%;
+}
+
+.buttonss{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.buttons button{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.operator{
+    color: #00a2ff;
+}
+
+.clr{
+    background-color: cyan;
+}
+
+.clr:active{
+    background-color: rgba(0, 255, 255, 0.621);
+}
+
+.del{
+    background-color: cyan;
+}
+
+.del:active{
+    background-color: rgba(0, 255, 255, 0.621);
+}
